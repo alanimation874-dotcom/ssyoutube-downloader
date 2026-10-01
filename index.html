@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSYouTube - Best Free YouTube Video Downloader (1080p, 4K & MP3)</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Download YouTube videos and Shorts in 1080p, 4K, and high-quality MP3 for free with SSYouTube. Fast, safe, no software required, and unlimited downloads on any device.">
+  <meta name="keywords" content="SSYouTube, youtube video downloader, download youtube shorts, youtube to mp4, youtube to mp3, 1080p video downloader, 4k youtube downloader, online video saver">
+  <meta name="author" content="SSYouTube">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://ssyoutube.me/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ssyoutube.me/">
+  <meta property="og:title" content="SSYouTube - Free YouTube Video Downloader">
+  <meta property="og:description" content="Save YouTube videos & Shorts in HD, 1080p, 4K or convert to MP3 for free. No apps needed.">
+  <meta property="og:image" content="https://ssyoutube.me/og-image.png">
+  <meta property="og:site_name" content="SSYouTube">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://ssyoutube.me/">
+  <meta name="twitter:title" content="SSYouTube - Fast & Free YouTube Video Downloader">
+  <meta name="twitter:description" content="Download YouTube videos and audio in high quality without limits. Supports all mobile & desktop browsers.">
+  <meta name="twitter:image" content="https://ssyoutube.me/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230084ff'/><polygon points='38,30 72,50 38,70' fill='white'/></svg>">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ssyoutube.me/#website",
+        "url": "https://ssyoutube.me/",
+        "name": "SSYouTube",
+        "description": "Free Online YouTube Video & Audio Downloader",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ssyoutube.me/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://ssyoutube.me/#webapp",
+        "name": "SSYouTube Video Downloader",
+        "url": "https://ssyoutube.me/",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All (Windows, macOS, Linux, Android, iOS)",
+        "browserRequirements": "Requires JavaScript. Requires HTML5.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "Free web tool to download YouTube videos in 720p, 1080p, 4K and convert to MP3 audio."
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Download a YouTube Video with SSYouTube",
+        "description": "Quick 5-step tutorial on downloading videos from YouTube in HD or MP3.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Copy the YouTube video link",
+            "text": "Open YouTube, find the video or Shorts you want to download, and copy its link from the address bar or the Share button."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Paste the link on SSYouTube",
+            "text": "Go to ssyoutube.me and paste the URL into the search box at the top of the page, or type keywords to find it."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Select your format and resolution",
+            "text": "Choose the format and quality you want: MP4 in 720p, 1080p Full HD, 4K, or MP3 audio."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Click Download",
+            "text": "Click Download and let our tool process the video."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Save video to your device",
+            "text": "Once processed, click Download to save it directly to your device storage."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How to Download a YouTube Video?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "First, copy the YouTube video or Shorts link from YouTube. Then open your browser, visit ssyoutube.me, and paste the link into the box above (or type a title to search). Choose your preferred resolution or audio format, and click Download. Your file will be processed and saved directly to your device."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can YouTube Videos Convert to MP3?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, SSYouTube lets you convert any YouTube video to MP3 audio. Just paste the video link or search for the song title, choose MP3 from the format list, and download the audio file directly to your device."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SSYouTube Better than an App?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Installing downloader apps takes up storage space on your device and often requires invasive file permissions or unwanted updates. SSYouTube runs entirely in your web browser, asks for zero permissions, requires no installation, and keeps your device clean and safe."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I Download YouTube Videos on my Mobile Phone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, absolutely. You can download any YouTube video or Shorts directly on your mobile phone. Open your mobile browser (like Safari on iPhone or Chrome on Android), visit ssyoutube.me, paste the video link or search, and download files straight to your phone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "In Which Place do I see My Downloaded Video from SSYouTube?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Downloaded files are saved in your device's default download folder. On Windows and Mac computers, check your 'Downloads' folder. On Android and iPhone/iPad, you can find your files in your browser's download list or inside your device's 'Files' app."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I Search for Videos Instead of Pasting a Link?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Both link pasting and keyword search work in the same box above. If you don't have the URL handy, simply type the song title, artist, or video name, and SSYouTube will find it on YouTube so you can download it."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-logo" aria-label="SSYouTube Home">
+        <span class="logo-ss">SS</span><span class="logo-youtube">YouTube</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-item active">YouTube Downloader</a>
+        <a href="youtube-to-mp4.html" class="nav-item">YouTube to MP4</a>
+        <a href="youtube-to-mp3.html" class="nav-item">YouTube to MP3</a>
+      </nav>
+
+      <div class="lang-selector-wrapper">
+        <button class="lang-btn" id="langBtn" aria-expanded="false" aria-label="Language Selector">
+          <svg class="globe-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span>English</span>
+          <svg class="arrow-down" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <a href="#" class="lang-option active">English</a>
+          <a href="#" class="lang-option">Español</a>
+          <a href="#" class="lang-option">Français</a>
+          <a href="#" class="lang-option">Deutsch</a>
+          <a href="#" class="lang-option">Português</a>
+          <a href="#" class="lang-option">Bahasa Indonesia</a>
+          <a href="#" class="lang-option">Русский</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- TOP LEADERBOARD AD BANNER (728x90 / Responsive) -->
+  <div class="ad-container ad-top-leaderboard" aria-label="Advertisement Banner">
+    <div class="ad-slot ad-728x90">
+      <span class="ad-badge">ADVERTISEMENT</span>
+      <script>
+        atOptions = {
+          'key' : 'b30415af124070c71df15176ad85602f',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+      </script>
+      <script src="https://www.highrevenueformat.com/b30415af124070c71df15176ad85602f/invoke.js"></script>
+    </div>
+  </div>
+
+  <main class="main-content">
+    
+    <!-- Hero / Converter Section -->
+    <section class="hero-section">
+      <h1 class="hero-title">YouTube Video Downloader</h1>
+
+      <form class="converter-box" id="downloadForm" onsubmit="event.preventDefault(); handleProcess();">
+        <div class="input-wrapper">
+          <input 
+            type="text" 
+            id="urlInput" 
+            class="url-input" 
+            placeholder="Search or paste YouTube link here" 
+            autocomplete="off" 
+            required
+            aria-label="YouTube video URL or search query"
+          >
+          <button type="button" class="btn-clear" id="btnClear" aria-label="Clear input" style="display: none;">✕</button>
+        </div>
+
+        <div class="button-row">
+          <button type="submit" class="btn btn-download" id="downloadBtn">
+            <span>Download</span>
+          </button>
+          <button type="button" class="btn btn-paste" id="pasteBtn">
+            <span>Paste</span>
+          </button>
+        </div>
+      </form>
+
+      <!-- Video Result Preview Card (Dynamically displayed when link is processed) -->
+      <div class="result-card" id="resultCard" style="display: none;">
+        <div class="result-inner">
+          <div class="result-thumb-wrapper">
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop" id="resultThumb" alt="Video Thumbnail" class="result-thumb">
+            <span class="result-duration" id="resultDuration">04:15</span>
+          </div>
+          <div class="result-info">
+            <h3 class="result-title" id="resultTitle">Sample YouTube Video (1080p Full HD)</h3>
+            <p class="result-channel">Channel: <strong id="resultChannel">Popular Creator</strong></p>
+            
+            <div class="format-options">
+              <label for="formatSelect">Select Quality / Format:</label>
+              <select id="formatSelect" class="format-select">
+                <option value="mp4-1080">MP4 - 1080p Full HD (68 MB)</option>
+                <option value="mp4-720" selected>MP4 - 720p HD (32 MB)</option>
+                <option value="mp4-480">MP4 - 480p SD (18 MB)</option>
+                <option value="mp3-320">MP3 - 320 kbps Audio (9.8 MB)</option>
+                <option value="mp3-128">MP3 - 128 kbps Audio (4.1 MB)</option>
+              </select>
+            </div>
+
+            <div class="result-actions">
+              <button class="btn btn-download" id="btnFinalDownload" onclick="triggerDownload()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 6px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Save to Device</span>
+              </button>
+            </div>
+
+            <!-- Real MP4 Iframe API Server -->
+            <div id="mp4ApiWrapper" class="mp4-api-wrapper" style="display: none;">
+              <div class="mp4-api-label">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Direct MP4 Video Download Server:
+              </div>
+              <div id="mp4IframeBox"></div>
+            </div>
+
+            <!-- Real MP3 Iframe API Server -->
+            <div id="mp3ApiWrapper" class="mp3-api-wrapper" style="display: none;">
+              <div class="mp3-api-label">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                Direct MP3 Download Server:
+              </div>
+              <div id="mp3IframeBox"></div>
+            </div>
+
+            <!-- Download Progress Bar Simulation -->
+            <div class="progress-bar-container" id="progressBarContainer" style="display: none;">
+              <div class="progress-bar-fill" id="progressBarFill"></div>
+              <span class="progress-text" id="progressText">Processing video... 0%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RECTANGLE AD SLOT INSIDE RESULT (Highest CTR placement) -->
+        <div class="ad-slot ad-result-slot">
+          <span class="ad-badge">ADVERTISEMENT</span>
+          <script>
+            atOptions = {
+              'key' : 'b30415af124070c71df15176ad85602f',
+              'format' : 'iframe',
+              'height' : 90,
+              'width' : 728,
+              'params' : {}
+            };
+          </script>
+          <script src="https://www.highrevenueformat.com/b30415af124070c71df15176ad85602f/invoke.js"></script>
+        </div>
+      </div>
+
+      <!-- AD BANNER BELOW CONVERTER (728x90 / 300x250) -->
+      <div class="ad-container ad-below-converter">
+        <div class="ad-slot ad-728x90">
+          <span class="ad-badge">ADVERTISEMENT</span>
+          <script>
+            atOptions = {
+              'key' : 'b30415af124070c71df15176ad85602f',
+              'format' : 'iframe',
+              'height' : 90,
+              'width' : 728,
+              'params' : {}
+            };
+          </script>
+          <script src="https://www.highrevenueformat.com/b30415af124070c71df15176ad85602f/invoke.js"></script>
+        </div>
+      </div>
+
+      <!-- Intro Paragraphs -->
+      <article class="intro-description">
+        <p>
+          YouTube is the most popular video site in the world, but it doesn't give you a direct way to save videos to your device for offline viewing. That's why <strong>SSYouTube</strong> exists. It is a free online YouTube video downloader that lets you save any YouTube video or Shorts straight to your phone, tablet, or computer in just a few clicks, saving you time and data.
+        </p>
+        <p>
+          With SSYouTube, you can download full YouTube videos, save YouTube Shorts, or convert videos to MP3 audio. Everything is completely free to use, without pop-up ads, without software to install, and without any download limits.
+        </p>
+      </article>
+    </section>
+
+    <!-- Steps to Download Section -->
+    <section class="section steps-section" id="how-to">
+      <h2 class="section-title">Steps to Download YouTube Video</h2>
+
+      <div class="steps-list">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3 class="step-heading">Copy the YouTube video link (or search by title):</h3>
+            <p class="step-text">
+              Open YouTube, find the video or Shorts you want to download, and copy its link from the address bar or the Share button. Don't have the link? You can also just type the video or song title to search directly on SSYouTube.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3 class="step-heading">Paste the link or search on SSYouTube:</h3>
+            <p class="step-text">
+              Go to ssyoutube.me and paste the URL into the search box at the top of the page, or type your search keywords to find the video without copying a link.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3 class="step-heading">Select your format and resolution:</h3>
+            <p class="step-text">
+              Choose the format and quality you want: download as MP4 video in 720p, 1080p Full HD, or 4K, or choose MP3 if you only want the audio track.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3 class="step-heading">Click the Download button:</h3>
+            <p class="step-text">
+              Click Download and let our tool process the video. Most videos are ready in seconds; longer videos or high-resolution 4K files may take a moment longer.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="step-card">
+          <div class="step-number">5</div>
+          <div class="step-content">
+            <h3 class="step-heading">Save the video to your device:</h3>
+            <p class="step-text">
+              Once the file is processed, click Download to save it directly to your device. It is yours to keep and watch offline anytime you want.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="section overview-section" id="overview">
+      <h2 class="section-title">Overview :</h2>
+
+      <ul class="bullet-list">
+        <li>
+          <strong>Quick and easy downloads:</strong> Paste a YouTube link or type a search term in the box above to find and download any video in seconds.
+        </li>
+        <li>
+          <strong>Full resolution control:</strong> Choose the exact quality you want, from mobile-friendly 720p HD up to 1080p Full HD, 1440p (2K), and 2160p (4K UHD).
+        </li>
+        <li>
+          <strong>No third-party apps required:</strong> Save videos directly in your browser without wasting device storage or granting invasive file permissions to desktop apps.
+        </li>
+        <li>
+          <strong>Convert YouTube to MP3:</strong> Easily convert any YouTube video or music clip to high-quality MP3 audio with fast download speeds.
+        </li>
+        <li>
+          <strong>Safe, secure, and private:</strong> Every connection runs over HTTPS encryption. We don't ask for personal information, and we don't track your download history.
+        </li>
+        <li>
+          <strong>Reliable and regularly updated:</strong> Built on fast cloud servers to ensure smooth performance, high conversion speeds, and 99.9% uptime.
+        </li>
+      </ul>
+
+      <p class="overview-subtext">
+        Beyond standard MP4 video, SSYouTube gives you the flexibility to download in multiple video and audio formats with fast processing speeds. Convert and save media in MP4, MP3, 3GP, WEBM, and M4A so your files play smoothly on any device or media player.
+      </p>
+
+      <!-- Format Badges -->
+      <div class="badge-group">
+        <span class="badge">MP4</span>
+        <span class="badge">MP3</span>
+        <span class="badge">3GP</span>
+        <span class="badge">WEBM</span>
+        <span class="badge">M4A</span>
+        <span class="badge">720p</span>
+        <span class="badge">1080p</span>
+        <span class="badge">4K</span>
+      </div>
+    </section>
+
+    <!-- MID-CONTENT IN-FEED AD BANNER -->
+    <div class="ad-container ad-mid-content">
+      <div class="ad-slot ad-728x90">
+        <span class="ad-badge">ADVERTISEMENT</span>
+        <script>
+          atOptions = {
+            'key' : 'b30415af124070c71df15176ad85602f',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://www.highrevenueformat.com/b30415af124070c71df15176ad85602f/invoke.js"></script>
+      </div>
+    </div>
+
+    <!-- Devices or System Supported Section -->
+    <section class="section devices-section" id="supported-devices">
+      <h2 class="section-title">Devices or System Supported :</h2>
+
+      <p class="devices-text">
+        SSYouTube works smoothly across all major operating systems and devices, including Windows, Mac, Linux, Android phones, iPhones, iPads, and tablets. There's nothing to install: simply open your preferred browser, such as Chrome, Safari, Firefox, Edge, or Opera, visit ssyoutube.me, and download YouTube videos or Shorts straight to your device.
+      </p>
+
+      <!-- Supported OS Checkmark Badges -->
+      <div class="badge-group pill-badges">
+        <span class="badge check-badge">✓ Windows</span>
+        <span class="badge check-badge">✓ macOS</span>
+        <span class="badge check-badge">✓ Linux</span>
+        <span class="badge check-badge">✓ Android</span>
+        <span class="badge check-badge">✓ iPhone (iOS)</span>
+        <span class="badge check-badge">✓ iPad / Tablet</span>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+      <h2 class="section-title">FAQ</h2>
+
+      <div class="faq-list">
+        <!-- FAQ 1 -->
+        <div class="faq-card">
+          <h3 class="faq-question">How to Download a YouTube Video?</h3>
+          <p class="faq-answer">
+            First, copy the YouTube video or Shorts link from YouTube. Then open your browser, visit ssyoutube.me, and paste the link into the box above (or type a title to search). Choose your preferred resolution or audio format, and click Download. Your file will be processed and saved directly to your device.
+          </p>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-card">
+          <h3 class="faq-question">Can YouTube Videos Convert to MP3?</h3>
+          <p class="faq-answer">
+            Yes, SSYouTube lets you convert any YouTube video to MP3 audio. Just paste the video link or search for the song title, choose MP3 from the format list, and download the audio file directly to your device.
+          </p>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-card">
+          <h3 class="faq-question">Is SSYouTube Better than an App?</h3>
+          <p class="faq-answer">
+            Yes. Installing downloader apps takes up storage space on your device and often requires invasive file permissions or unwanted updates. SSYouTube runs entirely in your web browser, asks for zero permissions, requires no installation, and keeps your device clean and safe.
+          </p>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-card">
+          <h3 class="faq-question">Can I Download YouTube Videos on my Mobile Phone?</h3>
+          <p class="faq-answer">
+            Yes, absolutely. You can download any YouTube video or Shorts directly on your mobile phone. Open your mobile browser (like Safari on iPhone or Chrome on Android), visit ssyoutube.me, paste the video link or search, and download files straight to your phone.
+          </p>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-card">
+          <h3 class="faq-question">In Which Place do I see My Downloaded Video from SSYouTube?</h3>
+          <p class="faq-answer">
+            Downloaded files are saved in your device's default download folder. On Windows and Mac computers, check your 'Downloads' folder. On Android and iPhone/iPad, you can find your files in your browser's download list or inside your device's 'Files' app.
+          </p>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="faq-card">
+          <h3 class="faq-question">Can I Search for Videos Instead of Pasting a Link?</h3>
+          <p class="faq-answer">
+            Yes. Both link pasting and keyword search work in the same box above. If you don't have the URL handy, simply type the song title, artist, or video name, and SSYouTube will find it on YouTube so you can download it.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- STICKY BOTTOM AD BANNER (Dismissible) -->
+  <aside class="sticky-bottom-ad" id="stickyBottomAd">
+    <div class="sticky-ad-wrapper">
+      <button class="sticky-ad-close" id="closeStickyAd" aria-label="Close Ad">✕</button>
+      <span class="ad-badge">ADVERTISEMENT</span>
+      <div class="sticky-ad-content">
+        <script>
+          atOptions = {
+            'key' : 'b30415af124070c71df15176ad85602f',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+        </script>
+        <script src="https://www.highrevenueformat.com/b30415af124070c71df15176ad85602f/invoke.js"></script>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <nav class="footer-links" aria-label="Footer Navigation">
+        <a href="about.html">About Us</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+
+      <p class="footer-disclaimer">
+        SSYouTube is an independent conversion tool and is not affiliated with YouTube or Google LLC.
+      </p>
+
+      <p class="footer-copyright">
+        &copy; 2026 <a href="index.html">SSYouTube</a>. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
