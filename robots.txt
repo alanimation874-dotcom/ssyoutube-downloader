@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://ssyoutube.me/sitemap.xml
+Sitemap: https://www.ssyoutube.work/sitemap.xml
