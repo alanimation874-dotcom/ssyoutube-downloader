@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /sw.js
+Disallow: /sw (3).js
 
 # Sitemaps
-Sitemap: https://www.ssyoutube.work/sitemap.xml
+Sitemap: https://ssyoutube.work/sitemap.xml
